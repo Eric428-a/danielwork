@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Web Scraping Website</title>
+</head>
+<body>
+  <div>
+    <label for="searchInput">Enter Name:</label>
+    <input type="text" id="searchInput" placeholder="Type a name">
+    <button onclick="search()">Search</button>
+  </div>
+  <div>
+    <label for="output">Output:</label>
+    <textarea id="output" readonly></textarea>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- index.html -->
+
+<form id="searchForm" action="http://localhost:3000/scrape" method="post">
+  <form id="searchForm" action="/scrape" method="post">
